@@ -28,7 +28,7 @@ Before running the system, ensure that you have the following:
 
 4. **Run the app with test video**:
    
-   You're provided by a test video (or you can use your own)
+   You're provided by a test video Belgium-Italy.mp4 (or you can use your own)
 
    Run this:
 
