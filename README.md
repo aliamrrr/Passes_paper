@@ -17,3 +17,5 @@ Before running the system, ensure that you have the following:
 
    ```bash
    git clone https://github.com/aliamrrr/Passes_paper.git
+   cd Passes_paper
+
