@@ -42,6 +42,14 @@ CONFIG = SoccerPitchConfiguration()  # Standard soccer pitch dimensions and zone
 # =====================
 # SIDEBAR NAVIGATION
 # =====================
+st.sidebar.title("🚀 Soccer Game Analyzer: Unlocking Optimal Pass Strategies! ⚽")
+
+# Important message
+st.sidebar.markdown("""
+**Important:**  
+Don't forget to download the `player_detect.pt` model weights and place them in a folder named **"models"** so that the path should be: `models/player_detect.pt`.
+""")
+
 menu = st.sidebar.selectbox("Select an option", 
                            ["Dual Passes options", "Generate pass sequences"])
 
