@@ -2,7 +2,8 @@
 
 This project aims to optimize goal kick strategies in soccer using **computer vision**. The system detects key events from broadcast video footage and provides tactical insights, helping coaches and analysts make informed decisions.
 
-## Demo
+## Pass options
+
 
 Here are two modes you can explore:
 
@@ -10,16 +11,23 @@ Here are two modes you can explore:
    - Focuses on short passes by assessing player proximity and defensive pressure.
 
    <p align="center">
-     <img src="images/short.png" alt="Build Mode and Short Passes" />
+     <img src="images/short.PNG" alt="Build Mode and Short Passes" />
    </p>
 
 2. **Long Passes Mode**:
    - Identifies long-pass opportunities, balancing pass viability with defensive threats.
 
    <p align="center">
-     <img src="images/long.png" alt="Long Passes Mode" />
+     <img src="images/long.PNG" alt="Long Passes Mode" />
    </p>
 
+## Pass sequences generation
+
+Here is an example of goal kick generated pass sequence (you can observe opponent reaction in red):
+
+   <p align="center">
+     <img src="images/real.jpg" alt="Build Mode and Short Passes" />
+   </p>
 
 ## Prerequisites
 
