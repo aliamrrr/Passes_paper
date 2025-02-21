@@ -9,12 +9,12 @@ Here are two modes you can explore:
 1. **Build Mode and Short Passes**:
    - Focuses on short passes by assessing player proximity and defensive pressure
 
-   ![Build Mode and Short Passes](path_to_your_image_1.jpg)
+   ![Build Mode and Short Passes](images.short.jpg)
 
 2. **Long Passes Mode**:
    - Identifies long-pass opportunities, balancing pass viability with defensive threats
 
-   ![Long Passes Mode](path_to_your_image_2.jpg)
+   ![Long Passes Mode](images.long.jpg)
 
 
 ## Prerequisites
