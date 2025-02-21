@@ -2,6 +2,21 @@
 
 This project aims to optimize goal kick strategies in soccer using **computer vision**. The system detects key events from broadcast video footage and provides tactical insights, helping coaches and analysts make informed decisions.
 
+## Demo
+
+Here are two modes you can explore:
+
+1. **Build Mode and Short Passes**:
+   - In this mode, the system detects and analyzes short passes during gameplay, helping identify quick tactical moves.
+
+   ![Build Mode and Short Passes](path_to_your_image_1.jpg)
+
+2. **Long Passes Mode**:
+   - In this mode, the system focuses on detecting long passes, providing insights into more strategic passes across the field.
+
+   ![Long Passes Mode](path_to_your_image_2.jpg)
+
+
 ## Prerequisites
 
 Before running the system, ensure that you have the following:
