@@ -63,4 +63,6 @@ Before running the system, ensure that you have the following:
    ```bash
    streamlit run main.py
 
+If you have any questions about the method, feedback, or advice, please feel free to reach out to me via email at ali-anass.amradouch@imt-atlantique.net.
+
 
