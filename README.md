@@ -49,7 +49,7 @@ Before running the system, ensure that you have the following:
    pip install -r requirements.txt
 
 2. **Download the model**
-   For privacy purposes, you will not have access to the player detection model (trained by RBFA). The model used in this project is a DETR model trained on a ZIP dataset containing players, ball, referee, side referee, and staff member annotations.
+   For privacy purposes, you can not have access to the player detection model (trained by RBFA). The model used in this project is a DETR model trained on a ZIP dataset containing players, ball, referee, side referee, and staff member annotations, you can use a pretrained model from Roboflow or train your own model.
 
    The path looks like this:
    Passes_paper/models/player_detect.pt
