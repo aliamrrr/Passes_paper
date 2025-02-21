@@ -7,12 +7,12 @@ This project aims to optimize goal kick strategies in soccer using **computer vi
 Here are two modes you can explore:
 
 1. **Build Mode and Short Passes**:
-   - In this mode, the system detects and analyzes short passes during gameplay, helping identify quick tactical moves.
+   - Focuses on short passes by assessing player proximity and defensive pressure
 
    ![Build Mode and Short Passes](path_to_your_image_1.jpg)
 
 2. **Long Passes Mode**:
-   - In this mode, the system focuses on detecting long passes, providing insights into more strategic passes across the field.
+   - Identifies long-pass opportunities, balancing pass viability with defensive threats
 
    ![Long Passes Mode](path_to_your_image_2.jpg)
 
@@ -37,8 +37,9 @@ Before running the system, ensure that you have the following:
    pip install -r requirements.txt
 
 2. **Download the model**
-   Download the pre-trained player_detect.pt model weights using this link : https://drive.google.com/file/d/1FuibHhLGI7PvaZxSPrxhtdQxveyqdKTg/view?usp=drive_link and place them in a folder called models inside the project directory. The path should look like this:
+   For privacy purposes, you will not have access to the player detection model (trained by RBFA). The model used in this project is a DETR model trained on a ZIP dataset containing players, ball, referee, side referee, and staff member annotations.
 
+   The path looks like this:
    Passes_paper/models/player_detect.pt
 
 4. **Run the app with test video**:
